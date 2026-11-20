@@ -1,0 +1,570 @@
+<div align="center">
+  <h1><sub><img src="img/debpalash-voicestudio/logo.png" alt="" width="36" height="36" /></sub> VoiceStudio</h1>
+  <p>
+    <a href="https://trendshift.io/repositories/28176?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-28176" target="_blank" rel="noopener noreferrer"><img src="img/debpalash-voicestudio/28176" alt="Trendshift badge showing where VoiceStudio ranks among trending repositories" width="220" height="48" /></a>
+  </p>
+  <h2>AI voice studio. On your device.</h2>
+  <h3>Clone, design, dub, dictate, transcribe and narrate in 646 languages.</h3>
+  <p>Runs on your laptop, desktop, servers, phone, tablets and more</p>
+  <p>
+    <a href="https://voicestudio.sh/?utm_source=github&utm_medium=readme&utm_campaign=project">Website</a> ·
+    <a href="https://github.com/debpalash/VoiceStudio/releases/latest">Download</a> ·
+    <a href="#get-started">Get started</a> ·
+    <a href="#documentation">Docs</a> ·
+    <a href="https://voicestudio.sh/pro?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project">VoiceStudio Pro</a> ·
+    <a href="https://app.voicestudio.sh/?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project">VoiceStudio Cloud</a>
+  </p>
+  <!-- README_LANGUAGES_START -->
+  <a id="readme-languages"></a>
+  <p><sub>
+    <strong lang="en">🇬🇧 English</strong> · <a href="docs/readme/README_CN.md" lang="zh-CN">🇨🇳 简体中文</a> · <a href="docs/readme/README_JA.md" lang="ja">🇯🇵 日本語</a> · <a href="docs/readme/README_KO.md" lang="ko">🇰🇷 한국어</a> · <a href="docs/readme/README_RU.md" lang="ru">🇷🇺 Русский</a> · <a href="docs/readme/README_AR.md" lang="ar">🇸🇦 العربية</a> · <a href="docs/readme/README_DE.md" lang="de">🇩🇪 Deutsch</a> · <a href="docs/readme/README_ES.md" lang="es">🇪🇸 Español</a> · <a href="docs/readme/README_FR.md" lang="fr">🇫🇷 Français</a> · <a href="docs/readme/README_HI.md" lang="hi">🇮🇳 हिन्दी</a><br />
+    <a href="docs/readme/README_ID.md" lang="id">🇮🇩 Bahasa Indonesia</a> · <a href="docs/readme/README_IT.md" lang="it">🇮🇹 Italiano</a> · <a href="docs/readme/README_NL.md" lang="nl">🇳🇱 Nederlands</a> · <a href="docs/readme/README_PL.md" lang="pl">🇵🇱 Polski</a> · <a href="docs/readme/README_PT.md" lang="pt">🇵🇹 Português</a> · <a href="docs/readme/README_TH.md" lang="th">🇹🇭 ไทย</a> · <a href="docs/readme/README_TR.md" lang="tr">🇹🇷 Türkçe</a> · <a href="docs/readme/README_TW.md" lang="zh-TW">🇹🇼 繁體中文</a> · <a href="docs/readme/README_UK.md" lang="uk">🇺🇦 Українська</a> · <a href="docs/readme/README_VI.md" lang="vi">🇻🇳 Tiếng Việt</a>
+  </sub></p>
+  <!-- README_LANGUAGES_END -->
+
+
+  <p>
+    <a href="https://github.com/debpalash/VoiceStudio/actions/workflows/ci.yml"><img src="img/debpalash-voicestudio/ci.yml" alt="CI" /></a>
+    <a href="https://github.com/debpalash/VoiceStudio/releases/latest"><img src="img/debpalash-voicestudio/VoiceStudio" alt="Latest release" /></a>
+    <a href="LICENSE"><img src="img/debpalash-voicestudio/license-AGPL--3.0-52525b" alt="AGPL-3.0" /></a>
+    <a href="https://supermetry.com"><img src="img/debpalash-voicestudio/zfjiv7psp4ed.svg" alt="views" /></a>
+    <a href="https://discord.gg/bzQavDfVV9"><img src="img/debpalash-voicestudio/Discord-Jointhecommunity-5865F2" alt="Join Discord" /></a>
+  </p>
+  <p>
+    <sub>Strategic sponsors</sub>      <a href="https://github.com/debpalash/OpenGTM?utm_source=voicestudio&utm_medium=sponsor&utm_campaign=strategic-sponsor&utm_content=readme-logo"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/sponsors/opengtm-dark.svg" /><img src="img/debpalash-voicestudio/opengtm.svg" alt="OpenGTM" height="32" align="middle" /></picture></a>
+    <a href="https://github.com/debpalash/Opal?utm_source=voicestudio&utm_medium=sponsor&utm_campaign=strategic-sponsor&utm_content=readme-logo"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/sponsors/opal-dark.svg" /><img src="img/debpalash-voicestudio/opal.svg" alt="Opal" height="32" align="middle" /></picture></a>
+    <a href="https://github.com/velixio/supermetry?utm_source=voicestudio&utm_medium=sponsor&utm_campaign=strategic-sponsor&utm_content=readme-logo"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/sponsors/supermetry-dark.svg" /><img src="img/debpalash-voicestudio/supermetry.svg" alt="Supermetry" height="32" align="middle" /></picture></a>
+      ·   <sub>Special sponsor</sub> 
+    <a href="https://spicrawl.com?utm_source=voicestudio&amp;utm_medium=github_readme&amp;utm_campaign=special_sponsor&amp;utm_content=logo"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/sponsors/spicrawl-dark.svg" /><img src="img/debpalash-voicestudio/spicrawl.svg" alt="Spicrawl" height="32" align="middle" /></picture></a>
+  </p>
+  <br />
+</div>
+
+<p align="center">
+  <a href="docs/media/electron/voicestudio.mp4">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce) and (max-width: 768px)" srcset="img/debpalash-voicestudio/voice-cloning.webp" />
+      <source media="(prefers-reduced-motion: reduce)" srcset="docs/media/electron/voice-cloning.png" />
+      <img src="img/debpalash-voicestudio/voicestudio.gif" alt="A tour of the app: voice cloning, voice design, dubbing, and model management" width="100%" />
+    </picture>
+  </a><br />
+  <sub>Demo workspace · Default dark theme · <a href="docs/media/electron/voicestudio.mp4">Watch the HD tour</a></sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/debpalash/VoiceStudio/releases/latest"><img src="img/debpalash-voicestudio/Download-993f61" alt="Download" height="24" /></a>
+  <a href="#get-started"><img src="img/debpalash-voicestudio/Getstarted-27272a" alt="Get started" height="24" /></a>
+  <a href="https://voicestudio.sh/pro?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project&amp;utm_content=hero-badge"><img src="img/debpalash-voicestudio/VoiceStudioPro-27272a" alt="VoiceStudio Pro" height="24" /></a>
+  <a href="https://app.voicestudio.sh/?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project&amp;utm_content=hero-badge"><img src="img/debpalash-voicestudio/VoiceStudioCloud-27272a" alt="VoiceStudio Cloud" height="24" /></a>
+</p>
+
+## What you can do
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="docs/media/electron/voice-cloning.png"><img src="img/debpalash-voicestudio/voice-cloning.webp" alt="Voice cloning workspace with the bundled demo voice" width="100%" /></a><br />
+      <strong><a href="docs/audio-quality.md">Voice cloning</a></strong><br />
+      Turn a clean reference recording into speech in a familiar voice.
+    </td>
+    <td width="50%" valign="top">
+      <a href="docs/media/electron/dubbing.png"><img src="img/debpalash-voicestudio/dubbing.webp" alt="Video dubbing workspace" width="100%" /></a><br />
+      <strong><a href="docs/electron-dubbing.md">Video dubbing</a></strong><br />
+      Translate and dub videos with speech timed to the original.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="docs/media/electron/voice-design.png"><img src="img/debpalash-voicestudio/voice-design.webp" alt="Describe a voice in the voice design workspace" width="100%" /></a><br />
+      <strong><a href="docs/electron-voice-design.md">Voice design</a></strong><br />
+      Describe a voice in words and generate it.
+    </td>
+    <td width="50%" valign="top">
+      <a href="docs/media/electron/models.png"><img src="img/debpalash-voicestudio/models.webp" alt="Install and manage local speech models" width="100%" /></a><br />
+      <strong><a href="docs/downloading-models.md">Local models</a></strong><br />
+      Choose your engines and download only the models you need.
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><strong>More screenshots</strong></summary>
+
+<table>
+  <tr>
+    <td width="50%"><a href="docs/media/electron/overview.png"><img src="img/debpalash-voicestudio/overview.webp" alt="Workspace overview" width="100%" /></a><br /><strong>Workspace overview</strong></td>
+    <td width="50%"><a href="docs/media/electron/model-packs.png"><img src="img/debpalash-voicestudio/model-packs.webp" alt="Model packs" width="100%" /></a><br /><strong>Model packs</strong></td>
+  </tr>
+</table>
+
+</details>
+
+- **Dictate & transcribe** — A floating dictation widget and local transcription
+- **Narrate & batch** — Stories, audiobooks and queued jobs
+- **Connect & automate** — Local API, MCP, reusable recipes and watch folders
+
+Start with **VoiceStudio** (default, powered by k2-fsa/OmniVoice), or pick from dozens of other engines in the Model Manager. See the [features & engine catalog](docs/feature-catalog.md).
+
+<p align="center"><a href="https://discord.gg/bzQavDfVV9"><img src="img/debpalash-voicestudio/discord-community.svg" alt="Come say hello! Join us on Discord" height="64" /></a></p>
+
+## Pro and Cloud
+
+Everything above is free, runs on your own hardware and needs no account. Pro and Cloud are optional.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://voicestudio.sh/pro?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project&amp;utm_content=readme-section"><img src="img/debpalash-voicestudio/voicestudio-pro.svg" alt="" width="56" height="56" align="middle" /></a>&nbsp;&nbsp;<strong><a href="https://voicestudio.sh/pro?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project&amp;utm_content=readme-section">VoiceStudio Pro</a></strong><br /><br />
+      For paid client work across more than one machine.
+      <ul>
+        <li>A Commercial License for your client work, emailed to you</li>
+        <li>One user on up to 3 devices at once</li>
+        <li>Send jobs to your other GPUs while your projects stay local</li>
+        <li>New features and fixes first</li>
+      </ul>
+      <sub>Closed-source build, account required, 7-day full refund. The AGPL-3.0 app stays free, including commercial use under its terms.</sub><br /><br />
+      <strong><a href="https://voicestudio.sh/pro?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project&amp;utm_content=readme-section">See Pro plans →</a></strong>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://app.voicestudio.sh/?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project&amp;utm_content=readme-section"><img src="img/debpalash-voicestudio/voicestudio-cloud.svg" alt="" width="56" height="56" align="middle" /></a>&nbsp;&nbsp;<strong><a href="https://app.voicestudio.sh/?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project&amp;utm_content=readme-section">VoiceStudio Cloud</a></strong><br /><br />
+      A hosted voice and dubbing API, coming soon. No GPU needed.
+      <ul>
+        <li>Speech, voice design and voice cloning with consent</li>
+        <li>Dubbing, transcription and audiobooks</li>
+        <li>Usage and credits by day or project</li>
+        <li>Long jobs that run on their own</li>
+      </ul>
+      <sub>Not available yet: join early access for free usage credits. The desktop app stays free and local.</sub><br /><br />
+      <strong><a href="https://app.voicestudio.sh/?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project&amp;utm_content=readme-section">Join Cloud early access →</a></strong>
+    </td>
+  </tr>
+</table>
+
+## Platforms
+
+Experimental [Windows ROCm setup](docs/install/windows-rocm.md) supports selected RDNA 2 RX 6000 GPUs with targets `gfx1030`, `gfx1031` or `gfx1032`; RX 6500 XT (`gfx1034`) is excluded. GPU transcription uses a CTranslate2 build with native
+`gfx1031` kernels that this repository builds from upstream source and pins by
+hash, and setup checks actual GPU kernel execution. RX 6700 XT tests also cover native Torch speech generation and
+PyTorch Whisper. ROCm 10 faster-whisper uses a separate inference process to
+preserve safe CPU selection and fallback. Other cards and workloads retain the qualification limits in the guide.
+Performance presets validate changed engine selections in an offline child
+process before saving them, preserving fallback when an installed runtime fails.
+
+Choose your system, then expand an installation method.
+
+Native GGUF engines additionally support engine-specific Vulkan acceleration on AMD, Intel and NVIDIA GPUs ([OmniVoice](docs/engines/omnivoice-gguf.md#vulkan-acceleration), [CosyVoice](docs/engines/cosyvoice-gguf.md)). OmniVoice GGUF selects its GPU and model size automatically on Windows and Linux. Vulkan discovery retries a stalled hidden probe with a native summary; Windows and Linux desktop builds fail rather than silently ship without their Vulkan module.
+
+<a id="install-macos"></a>
+
+<details>
+<summary><img src="img/debpalash-voicestudio/apple.svg" alt="" width="20" height="20" /> <strong>macOS</strong> · Homebrew · DMG · installer</summary>
+
+<blockquote>
+
+**Stable · Apple Silicon**<br />macOS 13.3+ · Apple Silicon: local engines with Metal (MPS).
+
+<a href="https://github.com/debpalash/homebrew-tap"><img src="img/debpalash-voicestudio/Homebrew-27272a" alt="Homebrew" height="20" /></a>
+
+```sh
+brew tap debpalash/tap
+brew trust --cask debpalash/tap/voicestudio
+brew install --cask debpalash/tap/voicestudio
+```
+
+<details>
+<summary>DMG</summary>
+
+Download the DMG for your Mac, open it and drag VoiceStudio into Applications.
+
+[Download](https://github.com/debpalash/VoiceStudio/releases/latest) · [Guide](docs/install/macos.md)
+
+</details>
+
+<details>
+<summary>One-command installer</summary>
+
+```sh
+curl -fsSL https://voicestudio.sh/install | sh
+```
+
+</details>
+
+<details>
+<summary>Intel Mac · remote backend · Limited</summary>
+
+The app UI runs on Intel; connect it to a VoiceStudio backend on another computer.
+
+[Guide](docs/install/macos.md)
+
+</details>
+
+> [!NOTE]
+> On macOS, "VoiceStudio is damaged and can't be opened" means Gatekeeper blocked the app, not that the download is broken. See the [Gatekeeper fix](docs/install/macos.md#gatekeeper-quarantine).
+
+</blockquote>
+
+</details>
+
+<a id="install-windows"></a>
+
+<details>
+<summary><img src="img/debpalash-voicestudio/windows.svg" alt="" width="20" height="20" /> <strong>Windows</strong> · PowerShell · EXE</summary>
+
+<blockquote>
+
+**Stable · x64**<br />Windows 10/11 x64 · NVIDIA CUDA · AMD ROCm (opt-in) · CPU.
+
+```powershell
+irm https://voicestudio.sh/install.ps1 | iex
+```
+
+[Download the Windows installer](https://github.com/debpalash/VoiceStudio/releases/latest) · [Guide](docs/install/windows.md) · [AMD ROCm](docs/install/windows-rocm.md)
+
+<details>
+<summary>Windows on ARM · experimental</summary>
+
+Native app UI; the x64 Python backend runs under emulation on the CPU.
+
+[Download](https://github.com/debpalash/VoiceStudio/releases/latest) · [Guide](docs/install/windows.md)
+
+</details>
+
+</blockquote>
+
+</details>
+
+<a id="install-linux"></a>
+
+<details open>
+<summary><img src="img/debpalash-voicestudio/linux.svg" alt="" width="20" height="20" /> <strong>Linux</strong> · AUR · Snap · DEB · AppImage · Nix</summary>
+
+<blockquote>
+
+**Stable · x64**<br />Linux x64 · NVIDIA CUDA · CPU · Vulkan for supported GGUF engines.
+
+<details>
+<summary>One-command installer</summary>
+
+```sh
+curl -fsSL https://voicestudio.sh/install | sh
+```
+
+</details>
+
+<details>
+<summary>Arch / Manjaro / EndeavourOS · AUR</summary>
+
+<a href="https://aur.archlinux.org/packages/voicestudio-bin"><img src="img/debpalash-voicestudio/AUR-1793d1" alt="AUR" height="20" /></a>
+
+```sh
+yay -S voicestudio-bin
+```
+
+Also available through `paru -S voicestudio-bin`.
+
+[Development sources](https://aur.archlinux.org/packages/voicestudio-git) · `yay -S voicestudio-git`
+
+<details>
+<summary>Build from AUR and install with pacman</summary>
+
+```sh
+sudo pacman -S --needed base-devel git
+git clone https://aur.archlinux.org/voicestudio-bin.git
+cd voicestudio-bin
+makepkg -s
+sudo pacman -U ./voicestudio-bin-*.pkg.tar.zst
+```
+
+</details>
+
+</details>
+
+<details>
+<summary>Ubuntu / Debian / Linux Mint · DEB</summary>
+
+Download the `.deb` into the current folder, then install it:
+
+[Download](https://github.com/debpalash/VoiceStudio/releases/latest)
+
+```sh
+sudo apt install ./VoiceStudio-*-linux-x64.deb
+```
+
+</details>
+
+<details>
+<summary>Snap · Ubuntu, Fedora, openSUSE and more</summary>
+
+<a href="https://snapcraft.io/voicestudio"><img src="img/debpalash-voicestudio/SnapStore-27272a" alt="Snap Store" height="20" /></a>
+
+With [snapd installed](https://snapcraft.io/docs/installing-snapd):
+
+```sh
+sudo snap install voicestudio
+```
+
+To enable microphone access:
+
+```sh
+sudo snap connect voicestudio:audio-record
+```
+
+</details>
+
+<details>
+<summary>Any Linux distribution · AppImage</summary>
+
+Download the AppImage into the current folder, then launch it:
+
+[Download](https://github.com/debpalash/VoiceStudio/releases/latest)
+
+```sh
+chmod +x VoiceStudio-*-linux-x64.AppImage
+./VoiceStudio-*-linux-x64.AppImage
+```
+
+</details>
+
+<details>
+<summary>Nix / NixOS · source environment</summary>
+
+Enter the repository’s FHS development environment, then run from source:
+
+```sh
+git clone https://github.com/debpalash/VoiceStudio.git
+cd VoiceStudio
+nix develop .#fhs
+bun run dev
+```
+
+[Guide](docs/install/nix.md)
+
+</details>
+
+[Guide](docs/install/linux.md)
+
+</blockquote>
+
+</details>
+
+<a id="install-docker"></a>
+
+<details>
+<summary><img src="img/debpalash-voicestudio/docker.svg" alt="" width="20" height="20" /> <strong>Docker</strong> · GHCR · Docker Hub</summary>
+
+<blockquote>
+
+Stable images · CPU · NVIDIA CUDA · AMD ROCm.
+
+<a href="https://github.com/debpalash/VoiceStudio/pkgs/container/voicestudio"><img src="img/debpalash-voicestudio/GHCR-27272a" alt="GHCR" height="20" /></a>
+
+**Run locally on the CPU (Bash)**
+
+```sh
+export OMNIVOICE_API_KEY="$(openssl rand -hex 32)"
+docker run -d --name omnivoice \
+  -p 127.0.0.1:3900:3900 \
+  -e OMNIVOICE_API_KEY \
+  -e OMNIVOICE_DATA_DIR=/app/omnivoice_data \
+  -v omnivoice-data:/app/omnivoice_data \
+  ghcr.io/debpalash/voicestudio:stable
+printf 'API key: %s\n' "$OMNIVOICE_API_KEY"
+```
+
+Open http://localhost:3900 and use the API key printed below.
+
+[NVIDIA, AMD ROCm and Compose instructions](docs/install/docker.md)
+
+[Docker Hub mirror](https://hub.docker.com/r/palashdeb/omnivoice-studio): `palashdeb/omnivoice-studio:stable`
+
+</blockquote>
+
+</details>
+
+<a id="install-android"></a>
+
+<details>
+<summary><img src="img/debpalash-voicestudio/android.svg" alt="" width="20" height="20" /> <strong>Android</strong> · APK · Obtainium · F-Droid repository</summary>
+
+<blockquote>
+
+Android 10+ · Preview · On-device, offline after model download.
+
+[Download APK](https://github.com/debpalash/VoiceStudio/releases/latest) · [Guide](docs/mobile.md#install)
+
+<details>
+<summary>F-Droid · VoiceStudio repository</summary>
+
+Add this repository in an F-Droid-compatible client; verify the fingerprint in the guide.
+
+```text
+https://debpalash.github.io/VoiceStudio/fdroid/repo
+```
+
+[Guide](store/fdroid/README.md)
+
+</details>
+
+<details>
+<summary>Obtainium · GitHub releases</summary>
+
+Add this source in Obtainium, or import the provided configuration.
+
+```text
+https://github.com/debpalash/VoiceStudio
+```
+
+[Import configuration](https://debpalash.github.io/VoiceStudio/obtainium.json)
+
+</details>
+
+<details>
+<summary>Install over USB with adb</summary>
+
+```sh
+adb install -r VoiceStudio-*-android.apk
+```
+
+</details>
+
+</blockquote>
+
+</details>
+
+<a id="install-ios"></a>
+
+<details>
+<summary><img src="img/debpalash-voicestudio/apple.svg" alt="" width="20" height="20" /> <strong>iPhone / iPad</strong> · IPA · sideloading</summary>
+
+<blockquote>
+
+iOS / iPadOS 17+ · Preview · On-device, offline after model download.
+
+Download the IPA and follow the signing and sideloading instructions.
+
+[Download](https://github.com/debpalash/VoiceStudio/releases/latest) · [Guide](docs/mobile.md#install)
+
+</blockquote>
+
+</details>
+
+Desktop and phone installers are on the [latest release](https://github.com/debpalash/VoiceStudio/releases/latest); Docker images come from GHCR. No GPU? The app is fully usable on the CPU, just slower. Native GGUF engines can also use Vulkan on AMD, Intel and NVIDIA GPUs; OmniVoice GGUF picks its GPU and model size automatically on Windows and Linux ([OmniVoice](docs/engines/omnivoice-gguf.md#vulkan-acceleration), [CosyVoice](docs/engines/cosyvoice-gguf.md)). Speed by engine and hardware: [performance](docs/performance.md).
+
+
+## Get started
+
+Install using the options above. Then open **Voice cloning**, pick a voice or add a clean reference recording, type your text and generate. The app asks before it downloads any model.
+
+<details>
+<summary><strong>More install options</strong>: a specific version, current main, uninstall, from source, with a coding agent</summary>
+
+```sh
+curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z   # a specific release
+curl -fsSL https://voicestudio.sh/install | sh -s -- --main            # build current main
+curl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall       # remove the app, keep your data
+```
+
+If `voicestudio.sh` is unreachable, run the script straight from the repository:
+`curl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh`.
+Prerequisites and behavior: [installer guide](docs/install/script.md).
+
+**From source**
+
+```bash
+git clone https://github.com/debpalash/VoiceStudio.git
+cd VoiceStudio
+bun run dev
+```
+
+`bun run dev` installs the JavaScript dependencies and, when using a supported
+local backend, the Python dependencies before launching Electron. Run
+`bun run setup:api` directly when you only need to rebuild the Python environment.
+
+See [Electron setup](electron/README.md).
+
+**With a coding agent** (Claude Code, Codex, Cursor, …), paste:
+
+```text
+Install the VoiceStudio app on this device and verify it works, following
+https://github.com/debpalash/VoiceStudio/blob/main/docs/install/agent.md
+```
+
+Upgrading from 0.5.3 or older (the Tauri app)? [Install the new app separately](docs/electron-migration.md).
+
+</details>
+
+## Documentation
+
+[All guides](docs/README.md)
+
+| Need | Start here |
+|---|---|
+| Setup help | [Troubleshooting](docs/install/troubleshooting.md) · [Model downloads](docs/downloading-models.md) |
+| Guides | [Multi-speaker dubbing](docs/dubbing/multi-speaker-guide.md) · [Expressive speech](docs/expressive-speech.md) · [Exporting dubs](docs/dubbing/export.md) |
+| Models & quality | [Engine guides](docs/engines/README.md) · [whisper.cpp ASR](docs/engines/whisper-cpp.md) · [Benchmarks](docs/benchmarks.md) |
+| Integrations | [CLI](docs/install/script.md#terminal-command) · [Local API](docs/speech-platform.md) · [MCP](docs/mcp.md) · [Examples](examples/README.md) |
+| Phone apps | [iOS and Android](docs/mobile.md) |
+| Development | [Contributing](.github/CONTRIBUTING.md) ([sign the CLA](.github/CONTRIBUTING.md#contribution-licensing) before your first PR) · [Changelog](CHANGELOG.md) · [Code signing policy](docs/code-signing-policy.md) |
+
+Agent skills: `npx skills add debpalash/VoiceStudio` (**voicestudio** for audio work, **voicestudio-maintainer** for the repo).
+
+## Sponsors
+
+The VoiceStudio app is free and needs no paid cloud. Sponsors keep it shipping: they fund maintainer time, test hardware, code-signing and release infrastructure.
+
+<p>
+    <a href="https://github.com/debpalash/OpenGTM?utm_source=voicestudio&utm_medium=sponsor&utm_campaign=strategic-sponsor&utm_content=readme-logo"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/sponsors/opengtm-dark.svg" /><img src="img/debpalash-voicestudio/opengtm.svg" alt="OpenGTM" height="48" align="middle" /></picture></a>
+    <a href="https://github.com/debpalash/Opal?utm_source=voicestudio&utm_medium=sponsor&utm_campaign=strategic-sponsor&utm_content=readme-logo"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/sponsors/opal-dark.svg" /><img src="img/debpalash-voicestudio/opal.svg" alt="Opal" height="48" align="middle" /></picture></a>
+    <a href="https://github.com/velixio/supermetry?utm_source=voicestudio&utm_medium=sponsor&utm_campaign=strategic-sponsor&utm_content=readme-logo"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/sponsors/supermetry-dark.svg" /><img src="img/debpalash-voicestudio/supermetry.svg" alt="Supermetry" height="48" align="middle" /></picture></a>
+</p>
+
+For sponsorship inquiries, contact [sponsor@voicestudio.sh](mailto:sponsor@voicestudio.sh).
+
+<a href="https://github.com/sponsors/debpalash"><img src="img/debpalash-voicestudio/Sponsor-GitHubSponsors-ea4aaa" alt="Sponsor on GitHub Sponsors" /></a>
+[Ko-fi](https://ko-fi.com/debpalash) · [PayPal](https://paypal.me/palashCoder) · [Tiers and benefits](SPONSORS.md) · [Get your logo listed](https://github.com/debpalash/VoiceStudio/issues/new?template=sponsor.yml)
+
+## Other projects
+
+More open-source tools from the people building VoiceStudio.
+
+- **[OpenGTM](https://opengtm.palash.dev/?utm_source=voicestudio&utm_medium=sponsor&utm_campaign=strategic-sponsor&utm_content=related-projects)** — Find and enrich companies and people in a self-hosted go-to-market workspace. [Source](https://github.com/debpalash/OpenGTM).
+- **[Opal](https://opal.palash.dev/?utm_source=voicestudio&utm_medium=sponsor&utm_campaign=strategic-sponsor&utm_content=related-projects)** — Watch, stream and browse your media in one native, open-source player. [Source](https://github.com/debpalash/Opal).
+- **[Supermetry](https://supermetry.com/?utm_source=voicestudio&utm_medium=sponsor&utm_campaign=strategic-sponsor&utm_content=related-projects)** — Understand your websites and products with self-hosted, cookie-free analytics. [Source](https://github.com/velixio/supermetry).
+
+More projects: [debpalash](https://github.com/debpalash?tab=repositories) · [velixio](https://github.com/velixio?tab=repositories)
+
+## Team
+
+### Core team
+
+<table>
+<tr>
+<td align="center" width="200"><a href="https://github.com/debpalash"><img src="img/debpalash-voicestudio/debpalash.png" width="80" height="80" alt="Palash Debnath"></a><br><b>Palash Debnath</b><br><sub>Creator and Core Team</sub><br><sub><a href="https://palash.dev">palash.dev</a> · <a href="https://github.com/debpalash">GitHub</a> · <a href="https://x.com/idebpalash">X</a></sub></td>
+<td align="center" width="200"><a href="https://github.com/velixio"><img src="img/debpalash-voicestudio/velixio.png" width="80" height="80" alt="Shimul Debnath"></a><br><b>Shimul Debnath</b><br><sub>Core Team</sub><br><sub><a href="https://shimul.me">shimul.me</a> · <a href="https://github.com/velixio">GitHub</a> · <a href="https://x.com/shimuldn">X</a></sub></td>
+</tr>
+</table>
+
+### Contributors
+
+<a href="https://github.com/kevin9327"><img src="img/debpalash-voicestudio/kevin9327.png" width="44" height="44" alt="@kevin9327" title="@kevin9327"></a> <a href="https://github.com/jaketame"><img src="img/debpalash-voicestudio/jaketame.png" width="44" height="44" alt="@jaketame" title="@jaketame"></a> <a href="https://github.com/psiberfunk"><img src="img/debpalash-voicestudio/psiberfunk.png" width="44" height="44" alt="@psiberfunk" title="@psiberfunk"></a> <a href="https://github.com/rudycelekli"><img src="img/debpalash-voicestudio/rudycelekli.png" width="44" height="44" alt="@rudycelekli" title="@rudycelekli"></a> <a href="https://github.com/paoloantinori"><img src="img/debpalash-voicestudio/paoloantinori.png" width="44" height="44" alt="@paoloantinori" title="@paoloantinori"></a> <a href="https://github.com/Chang-Jin-Lee"><img src="img/debpalash-voicestudio/Chang-Jin-Lee.png" width="44" height="44" alt="@Chang-Jin-Lee" title="@Chang-Jin-Lee"></a> <a href="https://github.com/swadhinbiswas"><img src="img/debpalash-voicestudio/swadhinbiswas.png" width="44" height="44" alt="@swadhinbiswas" title="@swadhinbiswas"></a> <a href="https://github.com/BichengWang"><img src="img/debpalash-voicestudio/BichengWang.png" width="44" height="44" alt="@BichengWang" title="@BichengWang"></a> <a href="https://github.com/nirmalchatur"><img src="img/debpalash-voicestudio/nirmalchatur.png" width="44" height="44" alt="@nirmalchatur" title="@nirmalchatur"></a> <a href="https://github.com/Shivendra-Coherent"><img src="img/debpalash-voicestudio/Shivendra-Coherent.png" width="44" height="44" alt="@Shivendra-Coherent" title="@Shivendra-Coherent"></a> <a href="https://github.com/marreiradigital"><img src="img/debpalash-voicestudio/marreiradigital.png" width="44" height="44" alt="@marreiradigital" title="@marreiradigital"></a> <a href="https://github.com/nvtoan0201-swe"><img src="img/debpalash-voicestudio/nvtoan0201-swe.png" width="44" height="44" alt="@nvtoan0201-swe" title="@nvtoan0201-swe"></a>
+
+Thank you to everyone who sends code, reports, translations and ideas. [All contributors](https://github.com/debpalash/VoiceStudio/graphs/contributors) · [Contribute](.github/CONTRIBUTING.md)
+
+## License & responsible use
+
+[AGPL-3.0](LICENSE) covers the app, including commercial use under its terms. Model weights, voices and generated output have their own licences, which the Model Manager shows for each model ([inventory](docs/licensing/model-inventory.md)). Clone a voice only with its owner's permission. Details: [LICENSE-NOTICE.md](LICENSE-NOTICE.md).
+
+## Community tutorials
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=I-u-A-oisIU&amp;utm_source=github&amp;utm_medium=readme&amp;utm_campaign=community_tutorials"><img src="img/debpalash-voicestudio/hqdefault.jpg" alt="VoiceStudio tutorial by Nafay 3D on YouTube" width="30%" /></a>
+  <a href="https://www.youtube.com/watch?v=hsLRbXLBP4U&amp;utm_source=github&amp;utm_medium=readme&amp;utm_campaign=community_tutorials"><img src="img/debpalash-voicestudio/hqdefault_2.jpg" alt="VoiceStudio tutorial by Samuel Gregory on YouTube" width="30%" /></a>
+  <a href="https://www.youtube.com/watch?v=2KemGhEI0Ck&amp;utm_source=github&amp;utm_medium=readme&amp;utm_campaign=community_tutorials"><img src="img/debpalash-voicestudio/hqdefault_2_3.jpg" alt="VoiceStudio tutorial by kilObit on YouTube" width="30%" /></a><br />
+  <sub>Nafay 3D · Samuel Gregory · kilObit</sub>
+</p>
+
+<p align="center"><a href="https://discord.gg/bzQavDfVV9"><img src="img/debpalash-voicestudio/discord-community.svg" alt="Come say hello! Join us on Discord" height="64" /></a></p>
+
+**Disclaimer**
+
+VoiceStudio users are strictly prohibited from using it for unauthorized voice cloning, voice impersonation, fraud, scams, or any other illegal or unethical activities. All users shall ensure full compliance with applicable local laws, regulations, and ethical standards. The developers assume no liability for any misuse of VoiceStudio and advocate for responsible AI development and use, encouraging the community to uphold safety and ethical principles in AI research and applications.
